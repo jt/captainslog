@@ -7,8 +7,12 @@ module Captainslog
     @history ||= 6
   end
 
+  def today
+    @today ||= Date.today
+  end
+
   def tomorrow
-    @tomorrow ||= Date.today + 1
+    @tomorrow ||= today + 1
   end
 
   def run(*args)
@@ -17,6 +21,7 @@ module Captainslog
   end
 
   def execute
+    print "Captain's Log, Stardate #{today - history} to today...\n\n"
     tomorrow.step(tomorrow - history, -1) do |day|
       log = log_for day
       puts header_for(day - 1)
