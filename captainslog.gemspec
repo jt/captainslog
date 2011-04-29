@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.homepage    = 'http://github.com/johmas/captainslog'
   s.summary     = 'captainslog formats git logs by day and author'
   s.description = %q{
-    captainslog is a command line utility that prints git logs by day and by author. This is especially usefully when filling out time logs and emailing summaries of commits to clients.
+    captainslog is a command line utility that prints git logs by day and by author. This is useful when filling out time logs and emailing summaries of commits to clients.
   }
   s.rubyforge_project = 'captainslog'
   s.files             = %w( README.md Rakefile LICENSE )

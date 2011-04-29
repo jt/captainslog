@@ -1,7 +1,7 @@
 captainslog
 ======
 
-captainslog is a command line utility that prints git logs by day and by author. This is especially usefully when filling out time logs and emailing summaries of commits to clients.
+captainslog is a command line utility that prints git logs by day and by author. This is useful when filling out time logs and emailing summaries of commits to clients.
 
 Install
 -------
