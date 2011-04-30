@@ -38,7 +38,6 @@ module Captainslog
   end
 
   def log_for(day)
-    %x[ git shortlog --since=\"#{(day - 1).to_time}\" --until=\"#{day}\" --no-merges --format=\"- %s\" -w\"80,0\" ]
-    .split("\n").reject{|s| s.empty?}.join("\n")
+    %x[ git shortlog --since=\"#{(day - 1).to_time}\" --until=\"#{day}\" --no-merges --format=\"- %s\" -w\"80,0\" ].split("\n").reject{|s| s.empty?}.join("\n")
   end
 end
