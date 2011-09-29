@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ['John Thomas Marino']
   s.email       = 'writejm@gmail.com'
-  s.homepage    = 'http://github.com/johmas/captainslog'
+  s.homepage    = 'http://github.com/johnnytommy/captainslog'
   s.summary     = 'captainslog formats git logs by day and author'
   s.description = %q{
     captainslog is a command line utility that prints git logs by day and by author. This is useful when filling out time logs and emailing summaries of commits to clients.
